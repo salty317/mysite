@@ -171,3 +171,48 @@ a {
 .strength:last-child {
     margin-right: 0;
 }
+
+#profile {
+    width: 100%;
+    background-color: #eceff1;
+    text-align: center;
+    padding: 90px 0;
+    color: #000000;
+}
+
+.profile-box {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.left-box {
+    width: 50%;
+    float: left;
+}
+
+.profile-img {
+    background-image: url(img/my-icon.jpg);
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.right-box {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+.profile-headline {
+    font-size: 20px;
+    margin: 20px 0 5px;
+}
+
+.profile-headline:first-child {
+    margin-top: 0;
+}
+
+.profile-text {
+    font-size: 16px;
+}
