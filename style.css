@@ -80,11 +80,11 @@ a {
     margin: 0 auto;
 }
 
-.portfolio-headline {
+.headline {
     font-size: 32px;
 }
 
-.portfolio-headline::after {
+.headline::after {
     content: "";
     display: block;
     width: 70px;
@@ -93,7 +93,7 @@ a {
     background-color: #EC715F;
 }
 
-.portfolio-text {
+.headtext {
     padding: 30px 0;
     font-size: 16px;
 }
@@ -137,4 +137,37 @@ a {
 
 #img6 {
     background-image: url(img/webcamp-mother.png);
+}
+
+#feature {
+    width: 100%;
+    text-align: center;
+    padding: 90px 0;
+    color: #000000;
+}
+
+.feature-box {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.strength {
+    width: 320px;
+    margin-right: 10px;
+    font-size: 60px;
+    float: left;
+}
+
+.strength-headline {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.strength-text {
+    font-size: 16px;
+    text-align: left;
+}
+
+.strength:last-child {
+    margin-right: 0;
 }
