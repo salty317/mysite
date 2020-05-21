@@ -190,12 +190,12 @@ header a {
 #profile {
     width: 100%;
     background-color: #eceff1;
-    padding: 90px 0;
     color: #000000;
 }
 
 .profile-box {
     width: 1024px;
+    padding: 90px 0;
     margin: 0 auto;
 }
 
@@ -373,5 +373,20 @@ footer {
 
     .strength:first-child {
         margin-top: 0px;
+    }
+
+    .profile-box {
+        width: 90%;
+        padding: 90px 5%;
+    }
+
+    .left-box,.right-box {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    .profile-headline:first-child {
+        margin-top: 20px;
     }
 }
