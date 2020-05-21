@@ -267,3 +267,41 @@ footer {
     color: #fafafa;
     text-align: center;
 }
+
+@media screen and (max-width:767px) {
+    header {
+        height: 50px;
+    }
+
+    .header-box {
+        width: 90%;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        width: 40px;
+        height: 40px;
+        float: right;
+        border: 1px solid #fafafa;
+        margin: 5px auto;
+    }
+
+    .menu-line {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: #fafafa;
+        margin: 5px auto;
+    }
+
+    .menu-line:first-child {
+        margin-top: 10px;
+    }
+}
