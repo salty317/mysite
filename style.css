@@ -57,6 +57,11 @@ header a {
     background-position: center;
 }
 
+.mv-box {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 .mv-headline {
     padding-top: 200px;
     font-size: 64px;
@@ -303,5 +308,23 @@ footer {
 
     .menu-line:first-child {
         margin-top: 10px;
+    }
+
+    #mv {
+        background-image: url(img/code.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mv-box {
+        width: 90%;
+    }
+
+    .mv-headline {
+        font-size: 40px;
+    }
+
+    .mv-text {
+        font-size: 18px;
     }
 }
