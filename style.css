@@ -287,8 +287,15 @@ footer {
         height: 50px;
     }
 
-    .header-box {
+    .header-box,.mv-box,.portfolio-box,.feature-box,.profile-box,.contact-box {
         width: 90%;
+    }
+
+    nav,#img1,#img3,#img5 {
+        display: none;
+    }
+
+    #portfolio,#feature,#profile,#contact {
         padding: 0 5%;
     }
 
@@ -296,16 +303,13 @@ footer {
         height: 50px;
     }
 
-    nav {
-        display: none;
-    }
-
     .hamburger-menu {
         width: 40px;
         height: 40px;
         float: right;
         border: 1px solid #fafafa;
-        margin: 5px auto;
+        margin: 5px 0;
+        margin-right: 5%;
     }
 
     .menu-line {
@@ -326,11 +330,6 @@ footer {
         background-position: center;
     }
 
-    .mv-box {
-        width: 90%;
-        padding: 0 5%;
-    }
-
     .mv-headline {
         font-size: 40px;
     }
@@ -339,26 +338,12 @@ footer {
         font-size: 18px;
     }
 
-    .portfolio-box {
-        width: 90%;
-        padding: 90px 5%;
-    }
-
     .portfolio-imgs {
         width: 300px;
     }
 
     .portfolio-img {
         float: none;
-    }
-
-    #img1,#img3,#img5 {
-        display: none;
-    }
-
-    .feature-box {
-        width: 90%;
-        padding: 90px 5%;
     }
 
     .strengths {
@@ -375,11 +360,6 @@ footer {
         margin-top: 0px;
     }
 
-    .profile-box {
-        width: 90%;
-        padding: 90px 5%;
-    }
-
     .left-box,.right-box {
         text-align: center;
         float: none;
@@ -388,11 +368,6 @@ footer {
 
     .profile-headline:first-child {
         margin-top: 20px;
-    }
-
-    .contact-box {
-        width: 90%;
-        padding: 90px 5%;
     }
 
     .contact-left-box,.contact-right-box {
